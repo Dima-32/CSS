@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+     <meta charset="utf-8"> 
+ <h1 align="center">Temat: Opis stylu zewnętrznego.
+</h1> 
+</head>
+<body>
+<ol>
+<li>  Skladnia teoretyczna → otoczony ramka (moze byc tabela jedno komorkowa, konieczne wciecia).  </li>
+<ul><li><textarea rows="5" cols="60">
+<head> 
+(...) 
+<link rel="Stylesheet" type="text/css" href="style.css" /> 
+(...) 
+</head>
+</textarea>gdzie <b>"style.css"</b> jest zewnetrznym arkuszem stylow. Natomiast znaki (...) oznaczaja inne polecenia, ktore zwykle pojawiajs sie w nagolwku dokumentu, np. deklaracja strony kodowej. </li></ul>
+
+<li>Gdzie wstawiany jest  styl zewnetrzny, jaki znacznik jest za to odpowiedzialny oraz 
+ile razy moze on wystepowac w dokumencie, jako podalczenie stylu CSS?  </li>
+<ul><li><b>Wstawienie →</b>wystarczy wpisac w tresci nagolwkowej kazdego z dokumentow (pomiedzy znacznikami <head> a </head>), przedstawiona powyzej linijkę: </li></ul>
+
+<li> Jak jest najprostsza forma wstawiania stylu zewnetrznego → otoczony ramka (moze 
+byc tabela jedno komorkowa? </li>
+<ul><li><textarea rows="1" cols="60">
+<link rel="Stylesheet" type="text/css" href="style.css" /> 
+</textarea></li></ul>
+
+<li>Ile arkuszy styli moze byc dolaczanych do jednego dokumentu HTML oraz jaka zasad 
+musi byc zachowana przy wiekszej ilosci dolaczanych styli? </li>
+<ul><li> mozna dolaczyc <b><u>dowolna liczbe</u></b> zewnetrznych arkuszy stylow  - kazdy jako osobny element <link rel="Stylesheet" />.    </li></ul>
+
+<li> Co sie dzieje w przypadku konfliktow? Przez konflikt rozumiemy, gdy te same style 
+sa definiowane w roznych arkuszach styli podlaczone do tego samego arkusza. </li>
+<ul><li>W przypadku <b><u>konfliktow</u></b>, ważniejsze beda deklaracje z arkusza dolaczonego pozniej.  </li></ul>
+
+<li> Jak sa tworzone i edytowane pliki arkuszy z uzyciem edytora tekstowego?  </li>
+<ul><li>Zewnetrzny arkusz stylow jest on zwyklym plikiem tekstowym. Do tworzenia i 
+edytowania wystarczy zwykly edytor tekst. </li></ul>
+
+<li> Jak sa tworzone i edytowane pliki arkuszy z uzyciem specjalnego edytora CSS?  </li>
+<ul><li> Mozna sie posluzyc specjalnym <b>edytorem CSS.</b>   </li></ul>
+
+<li> Jakie rozszerzenie posiadaja plik bedacy zewnetrznym arkuszem styli?  </li>
+<ul><li> Nalezy jedynie pamietac, ze plik bedacy zewnetrznym arkuszem stylow musi miec 
+rozszerzenie <b>*.css</b></li></ul>
+
+<li> Jakie sa zalety zewnetrznego arkusza styli?(dwie – z uzyciem wyliczenia)  </li>
+<ul>
+<li>wszystkie nasze strony w obrebie calego serwisu moga miec pewne wspolne cechy. </li>
+<li> jesli w ostatniej chwili zdecydujemy sie zmienic np. rodzaj czcionki na wszystkich 
+stronach, mozemy to zrobic, modyfikujac jedynie zewnetrzny arkusz stylow, bez 
+koniecznosci zmiany kazdej strony osobno. </li>
+</ul>
+</ol>
+</body>
+</html>

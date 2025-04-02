@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+     <meta charset="utf-8"> 
+ <h1 align="center">Temat: Cechy modyfikowania formatowania w HTML oraz CSS (tabela). Nowe możliwości CSS w porównaniu z HTML (wyliczenie→numerowane). Wady CSS z wyliczeniem. 
+</h1> 
+</head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+p {
+font-size: 20px;
+color: black;
+}
+</style>
+<body>
+<table>
+<tr>
+<th colspan="2"> <p></b>Cechy modyfikowania formatowania w:</b></p> </th>
+</tr>
+<tr>
+<td> w HTML </td>
+<td> w CSS </td>
+</tr>
+<tr>
+<td> modyfikacja wygladu elementow strony jest 
+bardzo <b>zmudna</b> (atrybuty i znaczniki ktore za to odpowiadaja, sa porozrzucane w roznych miejscach kodu, mieszajac sie ze struktura dokumentu). </td>
+<td> rozdzielenie <b>struktury i prezentacji</b> dokumentow czyli: wszystkie polecenia dotyczace formatowania mozna umiescic w jednym miejscu (tzw. arkuszu) i powiazac je z konkretnymi elementami, wstawionymi za pomoca czystego (X)HTML. Taki sposob sprawia, ze modyfikacja wygladu stron moze przebiegac duzo sprawniej. </td>
+</table>
+<p> <b>Nowe mozliwosci CSS</b> </p>
+<ol type="1">
+<li><b>Przestarzale atrybuty i znaczniki</b>, znajdujace sie bezposrednio w skladni HTML, ktore dotycza formatowania (elementy <b>zdeprecjonowane</b>), beda stopniowo wycofywane przez 
+producentow przegladarek internetowych, na rzecz rekomendowanych analogicznych deklaracji CSS. </li>
+<li> Dokumenty pisane z wykorzystaniem arkuszy stylow sa zwykle bardziej <b>przejrzyste i 
+krotsze.</b> </li>
+<li>Style pozwalaja w <b>latwy sposob zarzadzac</b> cala seria dokumentow, poprzez stosowanie 
+zewnetrznych arkuszy stylow. </li> 
+<li>Dzieki możliwosci stosowania klas selektorow, znacznie oszczedzamy sobie pisania. W 
+<b>jednym miejscu okreslamy wszystkie atrybuty formatowania </b> (ktorych moze byc bardzo 
+duzo), odnoszace sie do wielu elementow, ktore maja wygladac tak samo. Bezposrednio przy 
+elemencie wystarczy podac tylko nazwe klasy i nie musimy już wypisywac duzej ilosci 
+polecen. Znacznie przyspiesza to pozniejsza modyfikacje strony, poniewaz zmian 
+dokonujemy tylko w jednym miejscu, a wplywaja one na wiele elementow jednoczesnie. </li> 
+<li>Mozliwosc <b>stosowania roznorodnych jednostek oraz sposobow definiowania kolorow. </b></li>
+<li>Rozne wartosci <b>pogrubienia czcionki</b> (9 rodzajow)</li> 
+<li><b>Dodatkowe mozliwosci formatowania tekstu </b></li>
+<li><b>Efektowne filtry graficzne.</b></li>
+<li>Dodatkowe mozliwosci <b>okreslenia wygladu dokumentow podczas ich drukowania.</b></li>
+</ol>
+<p><b>Wady CSS</b></p>
+<ol type="1">
+<li> zlozona specyfikacja (skladnia) nietolerujaca, rzadnych bledow skladniowych, </li>
+<li> brak sygnalizacji bledow podczas wykonywania styli CSS oraz podczas ich realizacji, </li>
+<li> bledne obslugiwanie CSS przez rozne przegladarki, </li>
+</ol>
+</body>
+</html>
