@@ -1,0 +1,42 @@
+p#pogrubienie_pylypiuk{
+font-size:33px;
+color:#835CD3;
+font-weight: 700;
+}
+
+p#pochylona_pylypiuk{
+font-size:38pt;
+color:#E7C06F;
+font-style: italic;
+}
+
+p#index_gorny_pylypiuk{
+font-size:1.3cm;
+color:#978E1F;
+vertical-align: super;
+font-size: smaller;
+}
+
+p#index_dolny_pylypiuk{
+font-size:2.1cm;
+color:rgb(5.6%, 14.2%, 31%);
+vertical-align: sub;
+font-size: smaller;
+}
+
+p#mono_pylypiuk{
+font-size:43px;
+color:#17F26F;
+font-family: monospace;
+}
+
+p#powiekszenie_pylypiuk{
+color:#513EA1;
+font-size: 2em;
+}
+
+p#pomniejszenie_pylypiuk{
+color:rgb(18.1%, 16.2%, 1.61%)
+font-size: 0.8em;
+}
+
